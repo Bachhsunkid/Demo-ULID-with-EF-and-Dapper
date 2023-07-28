@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddDbContext<EmpContext>(option =>
+builder.Services.AddDbContext<EmployeeContext>(option =>
 {
     option.UseSqlServer(builder.Configuration.GetConnectionString("ConStr"));
 });
@@ -28,6 +28,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//Use API at localhost - Resovle CORS
+app.UseCors(c => c.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+builder.Services.AddCors();
+
+app.UseCors("AllowAllOrigins");
 
 app.UseHttpsRedirection();
 

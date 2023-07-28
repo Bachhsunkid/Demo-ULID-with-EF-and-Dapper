@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace DemoEF.Data
+namespace DemoEF.Model
 {
-    public class UlidToStringConverter : ValueConverter<Ulid, string>
+    public class StringUlidHandler : ValueConverter<Ulid, string>
     {
         private static readonly ConverterMappingHints defaultHints = new ConverterMappingHints(size: 26);
 
-        public UlidToStringConverter(ConverterMappingHints mappingHints = null)
+        public StringUlidHandler(ConverterMappingHints mappingHints = null)
             : base(
                     convertToProviderExpression: x => x.ToString(),
                     convertFromProviderExpression: x => Ulid.Parse(x),

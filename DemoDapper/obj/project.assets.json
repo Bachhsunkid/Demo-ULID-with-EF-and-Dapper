@@ -3076,11 +3076,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Training\\Homework\\DemoULID\\DemoDapper\\DemoDapper.csproj",
+      "projectUniqueName": "E:\\ProjectExample\\Demo-ULID-with-EF-and-Dapper\\DemoDapper\\DemoDapper.csproj",
       "projectName": "DemoDapper",
-      "projectPath": "E:\\Training\\Homework\\DemoULID\\DemoDapper\\DemoDapper.csproj",
+      "projectPath": "E:\\ProjectExample\\Demo-ULID-with-EF-and-Dapper\\DemoDapper\\DemoDapper.csproj",
       "packagesPath": "C:\\Users\\FinnTrinh\\.nuget\\packages\\",
-      "outputPath": "E:\\Training\\Homework\\DemoULID\\DemoDapper\\obj\\",
+      "outputPath": "E:\\ProjectExample\\Demo-ULID-with-EF-and-Dapper\\DemoDapper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FinnTrinh\\AppData\\Roaming\\NuGet\\NuGet.Config",

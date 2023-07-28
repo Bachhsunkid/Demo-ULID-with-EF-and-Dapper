@@ -6,16 +6,18 @@ namespace DemoEF.Service
 {
     public class EmployeeService : IEmployeeService
     {
-        private EmpContext _context;
+        private EmployeeContext _context;
 
-        public EmployeeService(EmpContext context)
+        public EmployeeService(EmployeeContext context)
         {
             _context = context;
         }
 
         public List<Employee> GetAllEmployees()
         {
-            return _context.Set<Employee>().ToList();
+            var employees = _context.Set<Employee>().ToList();
+            employees.Sort((emp1, emp2) => emp2.Id.CompareTo(emp1.Id)); //auto sort by created date when get all
+            return employees;
         }
 
         public Employee GetEmployeeById(Ulid id)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Training\\Homework\\DemoULID\\DemoEF\\DemoEF.csproj": {}
+    "E:\\ProjectExample\\Demo-ULID-with-EF-and-Dapper\\DemoEF\\DemoEF.csproj": {}
   },
   "projects": {
-    "E:\\Training\\Homework\\DemoULID\\DemoEF\\DemoEF.csproj": {
+    "E:\\ProjectExample\\Demo-ULID-with-EF-and-Dapper\\DemoEF\\DemoEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Training\\Homework\\DemoULID\\DemoEF\\DemoEF.csproj",
+        "projectUniqueName": "E:\\ProjectExample\\Demo-ULID-with-EF-and-Dapper\\DemoEF\\DemoEF.csproj",
         "projectName": "DemoEF",
-        "projectPath": "E:\\Training\\Homework\\DemoULID\\DemoEF\\DemoEF.csproj",
+        "projectPath": "E:\\ProjectExample\\Demo-ULID-with-EF-and-Dapper\\DemoEF\\DemoEF.csproj",
         "packagesPath": "C:\\Users\\FinnTrinh\\.nuget\\packages\\",
-        "outputPath": "E:\\Training\\Homework\\DemoULID\\DemoEF\\obj\\",
+        "outputPath": "E:\\ProjectExample\\Demo-ULID-with-EF-and-Dapper\\DemoEF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FinnTrinh\\AppData\\Roaming\\NuGet\\NuGet.Config",

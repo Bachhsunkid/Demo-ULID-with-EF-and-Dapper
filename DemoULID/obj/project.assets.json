@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Training\\Homework\\DemoULID\\DemoULID\\DemoULID.csproj",
+      "projectUniqueName": "E:\\ProjectExample\\Demo-ULID-with-EF-and-Dapper\\DemoULID\\DemoULID.csproj",
       "projectName": "DemoULID",
-      "projectPath": "E:\\Training\\Homework\\DemoULID\\DemoULID\\DemoULID.csproj",
+      "projectPath": "E:\\ProjectExample\\Demo-ULID-with-EF-and-Dapper\\DemoULID\\DemoULID.csproj",
       "packagesPath": "C:\\Users\\FinnTrinh\\.nuget\\packages\\",
-      "outputPath": "E:\\Training\\Homework\\DemoULID\\DemoULID\\obj\\",
+      "outputPath": "E:\\ProjectExample\\Demo-ULID-with-EF-and-Dapper\\DemoULID\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FinnTrinh\\AppData\\Roaming\\NuGet\\NuGet.Config",

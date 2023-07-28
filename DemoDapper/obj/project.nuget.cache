@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eYlxx9u+RtHLjiR2cUhRZpKStmv335q/8uVGBhkFfWtxBL++Zk14OH1U6aeWCwLHWpiLpe2ZwlorV+A6Jmczxw==",
+  "dgSpecHash": "mnvNT1162rTZnI6hN7YnLY4tQzEYFFAfNFrPeGqFcbYDPrFVKYfJIpP6zARP5hn5+JMjSuXeNjUPCJcT6UZW7w==",
   "success": true,
-  "projectFilePath": "E:\\Training\\Homework\\DemoULID\\DemoDapper\\DemoDapper.csproj",
+  "projectFilePath": "E:\\ProjectExample\\Demo-ULID-with-EF-and-Dapper\\DemoDapper\\DemoDapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FinnTrinh\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\FinnTrinh\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
