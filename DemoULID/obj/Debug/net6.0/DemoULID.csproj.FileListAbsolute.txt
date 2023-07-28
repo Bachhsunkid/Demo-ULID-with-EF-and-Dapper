@@ -1,0 +1,17 @@
+E:\Training\Homework\DemoULID\DemoULID\bin\Debug\net6.0\DemoULID.exe
+E:\Training\Homework\DemoULID\DemoULID\bin\Debug\net6.0\DemoULID.deps.json
+E:\Training\Homework\DemoULID\DemoULID\bin\Debug\net6.0\DemoULID.runtimeconfig.json
+E:\Training\Homework\DemoULID\DemoULID\bin\Debug\net6.0\DemoULID.dll
+E:\Training\Homework\DemoULID\DemoULID\bin\Debug\net6.0\DemoULID.pdb
+E:\Training\Homework\DemoULID\DemoULID\obj\Debug\net6.0\DemoULID.csproj.AssemblyReference.cache
+E:\Training\Homework\DemoULID\DemoULID\obj\Debug\net6.0\DemoULID.GeneratedMSBuildEditorConfig.editorconfig
+E:\Training\Homework\DemoULID\DemoULID\obj\Debug\net6.0\DemoULID.AssemblyInfoInputs.cache
+E:\Training\Homework\DemoULID\DemoULID\obj\Debug\net6.0\DemoULID.AssemblyInfo.cs
+E:\Training\Homework\DemoULID\DemoULID\obj\Debug\net6.0\DemoULID.csproj.CoreCompileInputs.cache
+E:\Training\Homework\DemoULID\DemoULID\obj\Debug\net6.0\DemoULID.dll
+E:\Training\Homework\DemoULID\DemoULID\obj\Debug\net6.0\refint\DemoULID.dll
+E:\Training\Homework\DemoULID\DemoULID\obj\Debug\net6.0\DemoULID.pdb
+E:\Training\Homework\DemoULID\DemoULID\obj\Debug\net6.0\DemoULID.genruntimeconfig.cache
+E:\Training\Homework\DemoULID\DemoULID\obj\Debug\net6.0\ref\DemoULID.dll
+E:\Training\Homework\DemoULID\DemoULID\bin\Debug\net6.0\Ulid.dll
+E:\Training\Homework\DemoULID\DemoULID\obj\Debug\net6.0\DemoULID.csproj.CopyComplete

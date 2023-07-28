@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gbj4vfbfa1XIldtd46tHUvgKezPEA5BvNKg2F7w9hgi+8aMfIRbjKd3PufmepxrMj3Oyh9x9pmtc24ML0q2qhw==",
+  "success": true,
+  "projectFilePath": "E:\\Training\\Homework\\DemoULID\\DemoULID\\DemoULID.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FinnTrinh\\.nuget\\packages\\ulid\\1.2.6\\ulid.1.2.6.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DemoULID/1.0.0": {
+        "dependencies": {
+          "Ulid": "1.2.6"
+        },
+        "runtime": {
+          "DemoULID.dll": {}
+        }
+      },
+      "Ulid/1.2.6": {
+        "runtime": {
+          "lib/net5.0/Ulid.dll": {
+            "assemblyVersion": "1.2.6.0",
+            "fileVersion": "1.2.6.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DemoULID/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ulid/1.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TDfJ/q4nJJ7LTxHErWYXRFs7laAUJhnT7Do+fpxxNg+uQOC1GKWLFuyJMKyMyIxQhFjWNC5XcFbr7R6HP9PFgw==",
+      "path": "ulid/1.2.6",
+      "hashPath": "ulid.1.2.6.nupkg.sha512"
+    }
+  }
+}
