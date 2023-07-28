@@ -27,9 +27,10 @@ namespace DemoDapper.Service
             var response = new ResponseAPI();
             try
             {
-                var emp = await _unitOfWork.Employees.GetByIdAsync(employee.Id);
+                employee.Id = Ulid.NewUlid();
+                var rowAffected = await _unitOfWork.Employees.InsertAsync(employee);
 
-                if (emp != null)
+                if (rowAffected > 0)
                 {
                     response.IsSuccess = true;
                     response.Message = "Inserted successfully!";

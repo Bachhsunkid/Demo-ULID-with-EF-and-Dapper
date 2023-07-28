@@ -1,11 +1,18 @@
+using DemoDapper.Model;
 using DemoDapper.Repository;
 using DemoDapper.Repository.Interface;
+using DemoDapper.Service;
+using DemoDapper.Service.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//register custom converter from Ulid to string
+Dapper.SqlMapper.AddTypeHandler(new StringUlidHandler());
+
 // Add services to the container.
-builder.Services.AddTransient<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+builder.Services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddTransient<IEmployeeService, EmployeeService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
